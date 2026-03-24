@@ -44,7 +44,7 @@ public class Personnage
             return vivant = true;
         }
     }
-    public void Afficher()
+    public virtual void Afficher()
     {
         Console.WriteLine($"[Perso] Nom : {nom}, Points de vie : {pointsDeVie}");
     }

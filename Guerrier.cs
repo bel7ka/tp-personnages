@@ -24,8 +24,11 @@ public class Guerrier : Personnage
         }
         return RecevoirDegats(degatsReduits);
     }
-    public void Afficher()
+    public override void Afficher()
     {
-        Console.WriteLine($"[Guerrier] Nom : {nom}, Points de vie : {pointsDeVie}, Armure : {armure}");
+    // On appelle la version du parent pour afficher le Nom et les PV
+    base.Afficher(); 
+    // On ajoute l'info spécifique
+    Console.WriteLine($"Armure : {armure}");
     }
 }

@@ -14,9 +14,10 @@ public class Magicien : Personnage
         this.puissanceMagique = puissanceMagique;
         return puissanceMagique;
     }
-    
-    public void Afficher()
+
+    public override void Afficher()
     {
-        Console.WriteLine($"Nom : {nom}, Points de vie : {pointsDeVie}, Puissance magique : {puissanceMagique}");
+        base.Afficher(); // Affiche le nom et les points de vie grâce à la méthode du parent
+        Console.WriteLine($"Puissance magique : {puissanceMagique}");
     }
 }
