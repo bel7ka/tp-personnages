@@ -1,0 +1,15 @@
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\bin\Debug\net10.0\tp-personnages.exe
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\bin\Debug\net10.0\tp-personnages.deps.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\bin\Debug\net10.0\tp-personnages.runtimeconfig.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\bin\Debug\net10.0\tp-personnages.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\bin\Debug\net10.0\tp-personnages.pdb
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.AssemblyInfoInputs.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.AssemblyInfo.cs
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.csproj.CoreCompileInputs.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.sourcelink.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\refint\tp-personnages.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.pdb
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\tp-personnages.genruntimeconfig.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\tp-personnages\obj\Debug\net10.0\ref\tp-personnages.dll
