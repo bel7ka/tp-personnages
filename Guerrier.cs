@@ -15,19 +15,23 @@ public class Guerrier : Personnage
         this.armure = armure;
         return armure;
     }
-    // public bool ReductionDegats(int degats)
-    // {
-    //     int degatsReduits = degats - armure;
-    //     if (degatsReduits < 0)
-    //     {
-    //         degatsReduits = 0;
-    //     }
-    //     return RecevoirDegats(degatsReduits);
-    // }ctl:
-    
+    public bool ReductionDegats(int degats)
+    {
+        int degatsReduits = degats - armure;
+        if (degatsReduits < 0)
+        {
+            degatsReduits = 0;
+        }
+        return RecevoirDegats(degatsReduits);
+    }
+    public bool Attaquer(Personnage cible)
+    {
+        Console.WriteLine($"{nom} attaque {cible.GetNom()} !");
+        return cible.RecevoirDegats(20); // Exemple de dégâts infligés
+    }
     public override void Afficher()
     {
-        Console.WriteLine($"Guerrier");
+        Console.WriteLine($"\nGuerrier");
         // On appelle la version du parent pour afficher le Nom et les PV
         base.Afficher(); 
         // On ajoute l'info spécifique

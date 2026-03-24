@@ -66,7 +66,7 @@ public class Personnage
     }
     public virtual void Afficher()
     {
-        Console.WriteLine($"[Perso] Nom : {nom}, Points de vie : {pointsDeVie}");
+        Console.WriteLine($"\n[Perso] Nom : {nom}, Points de vie : {pointsDeVie}");
     }
     
 
