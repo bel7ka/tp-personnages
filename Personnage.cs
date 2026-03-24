@@ -2,8 +2,8 @@ using System.Reflection.Metadata.Ecma335;
 
 public class Personnage
 {
-    private string nom;
-    private int pointsDeVie;
+    protected string nom;
+    protected int pointsDeVie;
     public Personnage(string nom, int pointsDeVie)
     {
         this.nom = nom;
@@ -13,8 +13,18 @@ public class Personnage
     {
         return nom;
     }
+    public string SetNom(string nom)
+    {
+        this.nom = nom;
+        return nom;
+    }
     public int GetPointsDeVie()
     {
+        return pointsDeVie;
+    }
+    public int SetPointsDeVie(int pointsDeVie)
+    {
+        this.pointsDeVie = pointsDeVie;
         return pointsDeVie;
     }
     
@@ -34,8 +44,10 @@ public class Personnage
             return vivant = true;
         }
     }
-
-
-
+    public void Afficher()
+    {
+        Console.WriteLine($"[Perso] Nom : {nom}, Points de vie : {pointsDeVie}");
+    }
+    
 
 }
