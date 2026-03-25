@@ -52,5 +52,8 @@ class Program
         {
             Console.WriteLine($"{m2.GetNom()} non Guerrier,convertion impossible!");
         }
+
+        Console.WriteLine("\nobjet :\n"+ m1+"\n"+g1+"\n"+p1);
+        Console.WriteLine("Fin du programme.");
     }
 }

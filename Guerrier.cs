@@ -28,4 +28,8 @@ public class Guerrier : Personnage
         // On ajoute l'info spécifique
         Console.WriteLine($"Armure : {armure}");
     }
+    public override string ToString()
+    {
+        return $"[Guerrier] Nom : {nom}, Points de vie : {pointsDeVie}, armure : {armure}";
+    }
 }

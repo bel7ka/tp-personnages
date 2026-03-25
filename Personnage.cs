@@ -69,5 +69,8 @@ public class Personnage
         Console.WriteLine($"\n[Perso] Nom : {nom}, Points de vie : {pointsDeVie}");
     }
     
-
+    public override string ToString()
+    {
+        return $"[Personnage] Nom : {nom}, Points de vie : {pointsDeVie}";
+    }
 }

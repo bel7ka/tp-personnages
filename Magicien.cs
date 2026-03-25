@@ -31,4 +31,8 @@ public class Magicien : Personnage
         base.Afficher(); // Affiche le nom et les points de vie grâce à la méthode du parent
         Console.WriteLine($"Puissance magique : {puissanceMagique}");
     }
+    public override string ToString()
+    {
+        return $"[Magicien] Nom : {nom}, Points de vie : {pointsDeVie},puissance magique : {puissanceMagique}";
+    }
 }
