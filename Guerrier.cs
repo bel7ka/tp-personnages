@@ -15,15 +15,6 @@ public class Guerrier : Personnage
         this.armure = armure;
         return armure;
     }
-    public bool ReductionDegats(int degats)
-    {
-        int degatsReduits = degats - armure;
-        if (degatsReduits < 0)
-        {
-            degatsReduits = 0;
-        }
-        return RecevoirDegats(degatsReduits);
-    }
     public bool Attaquer(Personnage cible)
     {
         Console.WriteLine($"{nom} attaque {cible.GetNom()} !");

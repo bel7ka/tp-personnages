@@ -49,7 +49,7 @@ public class Personnage
             return vivant = true;
         }
     }
-    public virtual bool RecevoirDegats(int degats, int reduction)
+    public bool RecevoirDegats(int degats, int reduction)
     {
         if(!vivant)
         {
