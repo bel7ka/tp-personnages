@@ -17,7 +17,7 @@ public class Guerrier : Personnage
     }
     public bool Attaquer(Personnage cible)
     {
-        Console.WriteLine($"{nom} attaque {cible.GetNom()} !");
+        Console.WriteLine($"\n{nom} attaque {cible.GetNom()} !");
         return cible.RecevoirDegats(20); // Exemple de dégâts infligés
     }
     public override void Afficher()

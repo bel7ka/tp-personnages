@@ -16,7 +16,7 @@ public class Magicien : Personnage
     }
     public void LancerSort(Personnage cible)
     {
-        Console.WriteLine($"{this.nom} incante un sort sur {cible.GetNom()} !");
+        Console.WriteLine($"\n{this.nom} incante un sort sur {cible.GetNom()} !");
         
         // Les dégâts sont égaux à la puissance magique
         int degats = this.puissanceMagique;
