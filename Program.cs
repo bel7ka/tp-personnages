@@ -29,6 +29,9 @@ class Program
         persos.Add(g2);
         Personnage m2 = new Magicien("Morgane", 85,40);
         persos.Add(m2);
+        Personnage a1 = new Archer("Legolas", 90, 25);
+        persos.Add(a1);
+        a1.Afficher();
 
         foreach (Personnage p in persos)
         {
@@ -44,6 +47,11 @@ class Program
             }
         }
 
+        if (a1 is Archer a)
+            {
+                a.TirerFleche(g1);
+            }
+
         if (m2 is Guerrier)
         {
         Guerrier fauxg1 = (Guerrier)m2;
@@ -53,7 +61,8 @@ class Program
             Console.WriteLine($"{m2.GetNom()} non Guerrier,convertion impossible!");
         }
 
-        Console.WriteLine("\nobjet :\n"+ m1+"\n"+g1+"\n"+p1);
+
+        Console.WriteLine("\nobjet :\n"+m1+"\n"+g1+"\n"+p1);
         Console.WriteLine("Fin du programme.");
     }
 }

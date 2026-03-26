@@ -15,17 +15,17 @@ public class Archer : Personnage
         return precision;
     }
 
-    // public void TirerFleche(Personnage cible)
-    // {
-    //     Console.WriteLine($"L’archer tire une flèche avec une précision de {precision}");
-    //     Console.WriteLine($"\n{this.nom} tire une flèche sur {cible.GetNom()} !");
+    public void TirerFleche(Personnage cible)
+    {
+        Console.WriteLine($"L’archer tire une flèche avec une précision de {precision}");
+        Console.WriteLine($"\n{this.nom} tire une flèche sur {cible.GetNom()} !");
 
-    //     // Les dégâts sont égaux à la précision
-    //     int degats = this.precision;
+        // Les dégâts sont égaux à la précision
+        int degats = this.precision;
         
-    //     // On applique les dégâts à la cible
-    //     cible.RecevoirDegats(degats);
-    // }
+        // On applique les dégâts à la cible
+        cible.RecevoirDegats(degats);
+    }
 
     public override void Afficher()
     {
